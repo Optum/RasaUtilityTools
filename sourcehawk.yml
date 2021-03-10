@@ -1,0 +1,9 @@
+
+config-locations:
+  - https://raw.githubusercontent.com/optum/.github/main/sourcehawk.yml
+  
+# Global Overrides
+file-protocols:
+    - name: Notice
+      repository-path: NOTICE.txt
+      required: false

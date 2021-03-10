@@ -1,0 +1,22 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- request_weather
+- greet
+entities:
+- city
+
+slots:
+  city:
+    type: unfeaturized
+
+responses:
+  utter_greet:
+  - text: Hi there! How can I help?
+  
+actions:
+- utter_greet
+
+forms:
+- weather_form
